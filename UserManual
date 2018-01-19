@@ -1,0 +1,27 @@
+Copyright (c) 2016 Akanksha and Smitha
+This code is available under the "MIT License".
+Please see the file LICENSE in this distribution
+for license terms
+
+#User Manual (Instalation and build instructions) 
+
+The Apartment Rater is a java web app is licensed under the MIT  license  Please see the file LICENSE 
+https://github.com/01akanksha/AppartmentRater/blob/master/LICENSE   for license term
+
+Build Instructions:  
+1.  Make sure you have JDK 8 and NetBeans 8.1 installed in your machine
+    you can have it from -http://www.oracle.com/technetwork/java/javase/downloads/index.html
+2. Install the Ucan Access Drivers version -3.0.6 into the Project library as well as in the jdk folder. 
+    you can install from -http://ucanaccess.sourceforge.net/site.html
+    It is an open source bridge for the java 8 as java 8 doesnot have jdbc bridge any more.
+    Put the libraries from library folder of the ucan access in the below location-
+    C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext 
+    Also from net beans add the libraries by going to Project Properties and then to the libraries tab  and then adding these libraries
+    For screenshots on how to do it see the word document of the user manual.
+3. Download as zip or clone the code for ApartmentRater from 
+   https://github.com/01akanksha/AppartmentRater  and  launch(open) it in the netBeans
+4.Please make sure you are having GlassFish version 4.1.1 server installed on your machine and don’t forget to set the projects running server as GlassFish.
+  It is also available under the open source.
+	you can download from-https://glassfish.java.net/download.html 
+	For screenshots on how to do it see the word document of the user manual.
+5) After all the above things are set you can run the application from the net beans by clicking the run button. After the successful deploy it will open it in the web browser.
